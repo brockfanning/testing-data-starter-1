@@ -55,7 +55,7 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
-        REPOSITORY_NAME: open-sdg-prod-1/repo-b
+        REPOSITORY_NAME: open-sdg-prod-1/another-prod-test
         ACCESS_TOKEN: ${{ secrets.token }}
         BRANCH: gh-pages
         FOLDER: _site
