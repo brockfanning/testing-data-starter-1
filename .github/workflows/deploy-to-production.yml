@@ -53,7 +53,7 @@ jobs:
       run: |
         cp public/robots-prod.txt _site/robots.txt
     - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@4
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         repository-name: brock-test-org/prod-repo-1
         token: ${{ secrets.token }}
